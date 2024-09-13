@@ -53,6 +53,7 @@ public class Hello {
 
 # Java Variable #
 <p>Variable is like container that store data or value </p>
+<p>Use Camelcase Notation Ex: (phoneNumber) </p>
 
 <strong>Rules for Naming Variable in Java </strong>
 <ol>
@@ -63,6 +64,14 @@ public class Hello {
 </ol>
 
 `````java
+public class Variable {
+    public static void main(String[] args) {
+        int num=10;
+        int mark=89;
+        System.out.println("Number: "+num);
+        System.out.println("Mark: "+mark);
+    }
+}
 
 `````
 
