@@ -88,3 +88,34 @@ public class Variable {
 |float|4 byte | 0.of|
 |double| 8 byte | 0.0d|
 |char | 2 bytes|'\u0000'|
+
+````java
+public class Data_Type {
+    public static void main(String[] args) {
+        int num=10;
+        float num2=3.14f;
+        double num3 = 3.45;
+        boolean ispassed = true;
+        char ch ='a';
+        String  name="Khorsed Alam";
+        System.out.println(num);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(ispassed);
+        System.out.println(ch);
+        System.out.println(name);
+    }
+}
+
+````
+# Data Type Conversion #
+````java
+    public class Type_Conversion {
+    public static void main(String[] args) {
+        int num=10;
+        long numlong = num;
+        System.out.println(numlong);
+    }
+}
+
+````
