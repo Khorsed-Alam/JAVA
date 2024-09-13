@@ -46,6 +46,7 @@ public class Hello {
 |abstract|continue|for|new|switch|
 |-----|----|------|----|-----|
 |assert|default|goto|package|synchronized|
-|-----|-----|----|----|------|
 |boolean| do| if| private| this|
+|break| doble|implements|protected|throw|
+|byte|else|import|public|throws|
 
