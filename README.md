@@ -109,6 +109,8 @@ public class Data_Type {
 
 ````
 # Data Type Conversion #
+<p>Data Type Implicit Conversion</p>
+<p>Data Type Explicit Conversion</p>
 ````java
     public class Type_Conversion {
     public static void main(String[] args) {
