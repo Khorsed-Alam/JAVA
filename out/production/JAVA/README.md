@@ -74,4 +74,17 @@ public class Variable {
 }
 
 `````
+# Java Data Type #
+<p>Data types refer to the different sizes and values that can be stored in the variable</p>
+<strong>Different type of Data type </strong>
 
+|Data Type|Size|Default|
+|-----|----|-----|
+|boolean|1 bit| false|
+|byte| 1 byte = 8 bit| 0|
+|short| 2 byte| 0|
+|int | 4 byte| 0|
+|long|8 byte | 0L|
+|float|4 byte | 0.of|
+|double| 8 byte | 0.0d|
+|char | 2 bytes|'\u0000'|
