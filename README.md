@@ -43,10 +43,35 @@ public class Hello {
 
 ```
 # Java Keyword #
+<p>Resever Word </p>
 |abstract|continue|for|new|switch|
 |-----|----|------|----|-----|
 |assert|default|goto|package|synchronized|
 |boolean| do| if| private| this|
 |break| doble|implements|protected|throw|
 |byte|else|import|public|throws|
+
+# Java Variable #
+<p>Variable is like container that store data or value </p>
+<p>Use Camelcase Notation Ex: (phoneNumber) </p>
+
+<strong>Rules for Naming Variable in Java </strong>
+<ol>
+  <li> Case Sensitive </li>
+  <li> Variable Must Start with either a letter or underscore or a dollar sign </li>
+  <li> Variable Name Can not ues White Space </li>
+  <li> Variable Name cannot be a keyword </li>
+</ol>
+
+`````java
+public class Variable {
+    public static void main(String[] args) {
+        int num=10;
+        int mark=89;
+        System.out.println("Number: "+num);
+        System.out.println("Mark: "+mark);
+    }
+}
+
+`````
 

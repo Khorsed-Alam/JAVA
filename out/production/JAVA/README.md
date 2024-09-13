@@ -31,3 +31,38 @@
 <strong> IDE </strong>
 <p>Integrated Development Environment</p>
 
+## Fist Java Program ##
+
+```java
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+```
+# Java Keyword #
+<p>Resever Word </p>
+|abstract|continue|for|new|switch|
+|-----|----|------|----|-----|
+|assert|default|goto|package|synchronized|
+|boolean| do| if| private| this|
+|break| doble|implements|protected|throw|
+|byte|else|import|public|throws|
+
+# Java Variable #
+<p>Variable is like container that store data or value </p>
+
+<strong>Rules for Naming Variable in Java </strong>
+<ol>
+  <li> Case Sensitive </li>
+  <li> Variable Must Start with either a letter or underscore or a dollar sign </li>
+  <li> Variable Name Can not ues White Space </li>
+  <li> Variable Name cannot be a keyword </li>
+</ol>
+
+`````java
+
+`````
+
