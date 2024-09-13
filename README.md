@@ -31,3 +31,15 @@
 <strong> IDE </strong>
 <p>Integrated Development Environment</p>
 
+### Fist Java Program ###
+
+```java
+
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+```
+
