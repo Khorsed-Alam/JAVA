@@ -19,10 +19,15 @@
 <p> Java Runtime Environment is a software package that provide java class Libraries , Java Virtual Machine and another component</p>
 
 <Strong> JDK: </strong>
+
 <p>Java Developement Kit is a software development kit required to devlop applilcation in Java</p>
+<p>JRE and JDK Contain </p>
 <ul>
  <li>Compiler</li>
 <li>JavaDoc</li>
 <li>Java Debugger</li>
 </ul>
+
+<strong> IDE </strong>
+<p>Integrated Development Environment</p>
 
