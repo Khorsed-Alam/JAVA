@@ -151,3 +151,52 @@ public class Data_Type {
  
 ### Octal to Hexadecimal ###
 
+
+### Binary Addition ###
+
+### Binary Subtraction ###
+<p> 2s complement </p>
+<ol>
+<li> 1s Complement (Zero to one and one to Zero)</li>
+<li> Add 1 with 1s complement </li>
+</ol>
+
+
+
+## Type of Operator in Java ##
+<ul>
+<li>Arithmetic Operator </li>
+<li>Assignment Operator</li>
+<li>Relational Operator</li>
+<li>Logical Operator</li>
+<li>Unary Operator</li>
+<li>Bitwise Operator</li>
+</ul>
+
+
+### Arithmetic Operator ###
+
+|Operator|Sign|
+|----|----|
+|Additiion|+|
+|Subtraction|-|
+|Multiplication|*|
+|Division|/|
+|Modulus|%|
+
+````java
+public class Operator {
+    public static void main(String[] args) {
+        int a=12;
+        int b=5;
+        System.out.println("Addition: "+(a+b));
+        System.out.println("Subtraction: "+(a-b));
+        System.out.println("Multiplication: "+(a*b));
+        System.out.println("Modulus: "+(a%b));
+
+        double res = (double) a/b;
+        System.out.println(res);
+    }
+}
+
+````
