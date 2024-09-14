@@ -1,4 +1,4 @@
-# Basic Java #
+## Basic Java ##
             - Programming Language
             - Working of a Java program
             - Basic Java Program
@@ -6,10 +6,10 @@
             - Variable in Java
             - Data Type in Java
             -Type Conversion in JavaJava Comment
-## Programming Language ##
+### Programming Language ###
 <strong><p> A programming language is a system of notation for writing computer programs </p></strong>
 
-#### Working of a Java Program ####
+##### Working of a Java Program #####
 
      hello.java ---(Compiler)--> Hello.class ----(JVM)-->Hello.exe
  <strong>JVM:  </strong>
@@ -31,7 +31,7 @@
 <strong> IDE </strong>
 <p>Integrated Development Environment</p>
 
-## Fist Java Program ##
+### Fist Java Program ###
 
 ```java
 
@@ -42,8 +42,9 @@ public class Hello {
 }
 
 ```
-# Java Keyword #
+## Java Keyword ##
 <p>Resever Word </p>
+
 |abstract|continue|for|new|switch|
 |-----|----|------|----|-----|
 |assert|default|goto|package|synchronized|
@@ -51,7 +52,7 @@ public class Hello {
 |break| doble|implements|protected|throw|
 |byte|else|import|public|throws|
 
-# Java Variable #
+## Java Variable ##
 <p>Variable is like container that store data or value </p>
 <p>Use Camelcase Notation Ex: (phoneNumber) </p>
 
@@ -74,7 +75,7 @@ public class Variable {
 }
 
 `````
-# Java Data Type #
+## Java Data Type ##
 <p>Data types refer to the different sizes and values that can be stored in the variable</p>
 <strong>Different type of Data type </strong>
 
@@ -108,16 +109,45 @@ public class Data_Type {
 }
 
 ````
-# Data Type Conversion #
+## Data Type Conversion ##
 <p>Data Type Implicit Conversion</p>
 <p>Data Type Explicit Conversion</p>
-````java
-    public class Type_Conversion {
+
+```java
+   public class Type_Conversion {
     public static void main(String[] args) {
         int num=10;
         long numlong = num;
         System.out.println(numlong);
     }
 }
+```
+ 
+<h1>Lecture 02 </h1>
+<strong>Lecture details </strong>
+<ol>
+<li> Binary Number System </li>
+<li>Java Operators </li>
+<li>Taking User Input</li>
+</ol>
 
-````
+
+## Binary Number System ## 
+
+### Convert Decimal to Binary ###
+<p>Decimal Number Divide by 2 and remineder is binary digit </p>
+
+### Convert Binary to decimal ###
+
+### Convert Octal to decimal ###
+
+### Decimal to Octal ###
+
+### Hexa decimal to decimal ###
+
+### Decimal to HexaDecimal ### 
+
+### HexaDecimal to Octal ###
+ 
+### Octal to Hexadecimal ###
+
