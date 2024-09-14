@@ -304,18 +304,29 @@ public class Logical_Operator {
 
 ### Unary Operator ###
 <p>Unary operators are operators which are used to calculate the result on only one operand.</p>
-<ul>
-     <li>Increment</li>
-      <ol>
-       <li>Pre Increment </li> 
-      < li>Post Increment </li>
-     </ol>
-      <li>
-       <ol>
-       <li>Pre deccrement </li> 
-      < li>Post decrement </li>
-     </ol>
-     </li>
+     1. Increment
+         * pre Increment
+          * post Increment
+      2. Decrement
+          * pre decrement
+          * post decrement
 
- </ul>
+````java
+        public class Unary_Operator {
+    public static void main(String[] args) {
+        int a=10;
+        System.out.println(a++);// output:10
+        System.out.println(a);//output:11
+        int b=20;
+        System.out.println(++b);// output: 21
 
+        int c=13;
+        System.out.println(--c);// output: 12
+
+        int d=12;
+        System.out.println(d--) ;// output: 12
+        System.out.println(d);// output: 11
+    }
+}
+
+````

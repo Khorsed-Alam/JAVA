@@ -269,10 +269,45 @@ public class Relational_Operato {
 ### Logical Operator ###
 <p>Logical operators are symbols or words used to connect two or more expressions and return a true or false value.</p>
 
-|Operator| Meaning|
-|-----|---|
-|&& | Logical and|
-| || |Logical Or|
-| !| logical Not|
+| Operator | Meaning|
+|--|---|
+| && | Logical and|
+| (||) |Logical Or|
+| ! | logical Not|
 
+````java
+public class Logical_Operator {
+    public static void main(String[] args) {
+        boolean FirstExpression = false;
+        boolean SecondExpression = true;
+
+        System.out.println(FirstExpression && SecondExpression);// output:False
+        System.out.println(FirstExpression || SecondExpression);// output: True
+        System.out.println(!FirstExpression);// output: true
+        System.out.println(!SecondExpression);// output:false
+    }
+}
+
+````
+
+
+### Bitwise Operator ###
+|Operator| Description|
+|------|---|
+|~|Bitwise Complement|
+|<<| Left Shift|
+|>>| Right Shift|
+|>>>|unsigned Right Shift|
+|& | Bitwise AND|
+|^| Bitwise Exclusive Or|
+
+
+### Unary Operator ###
+<p>Unary operators are operators which are used to calculate the result on only one operand.</p>
+     1. Increment
+         * pre Increment
+          * post Increment
+      2. Decrement
+          * pre decrement
+          * post decrement
 
