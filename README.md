@@ -265,3 +265,29 @@ public class Relational_Operato {
 }
 
 ```
+
+### Logical Operator ###
+<p>Logical operators are symbols or words used to connect two or more expressions and return a true or false value.</p>
+
+|Operator| Meaning|
+|-----|---|
+|&& | Logical and|
+| || |Logical Or|
+| !| logical Not|
+
+````java
+public class Logical_Operator {
+    public static void main(String[] args) {
+        boolean FirstExpression = false;
+        boolean SecondExpression = true;
+
+        System.out.println(FirstExpression && SecondExpression);// output:False
+        System.out.println(FirstExpression || SecondExpression);// output: True
+        System.out.println(!FirstExpression);// output: true
+        System.out.println(!SecondExpression);// output:false
+    }
+}
+
+````
+
+

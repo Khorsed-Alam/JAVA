@@ -242,3 +242,37 @@ public class Assignment_Operator {
 |>=| Greater Than Equal|
 |<=| Less than Equal|
 
+```java
+import com.sun.security.jgss.GSSUtil;
+
+public class Relational_Operato {
+    public static void main(String[] args) {
+        int FirstNum=10;
+        int SecondNum = 3;
+        System.out.println(FirstNum== SecondNum);
+
+        System.out.println(FirstNum != SecondNum);
+
+        System.out.println(FirstNum > SecondNum);
+
+        System.out.println(FirstNum< SecondNum);
+
+        System.out.println(FirstNum>=SecondNum);
+
+        System.out.println(FirstNum<=SecondNum);
+    }
+
+}
+
+```
+
+### Logical Operator ###
+<p>Logical operators are symbols or words used to connect two or more expressions and return a true or false value.</p>
+
+|Operator| Meaning|
+|-----|---|
+|&& | Logical and|
+| || |Logical Or|
+| !| logical Not|
+
+
