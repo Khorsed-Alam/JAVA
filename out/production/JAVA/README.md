@@ -311,3 +311,33 @@ public class Logical_Operator {
           * pre decrement
           * post decrement
 
+````java
+        public class Unary_Operator {
+    public static void main(String[] args) {
+        int a=10;
+        System.out.println(a++);// output:10
+        System.out.println(a);//output:11
+        int b=20;
+        System.out.println(++b);// output: 21
+
+        int c=13;
+        System.out.println(--c);// output: 12
+
+        int d=12;
+        System.out.println(d--) ;// output: 12
+        System.out.println(d);// output: 11
+    }
+}
+
+````
+
+## Taking User input ## 
+<p>In order to usr the object of Scanner we need to import java.util.Scanner</p>
+<P>Scanner sc=new Scanner (System.in)</P>
+<ol>
+<li>sc.nextInt() Taking Integer</li>
+<li>sc.nextFloat() Taking Float</li>
+<li>sc.next() Taking Character</li>
+<li>sc.nextLine() Taking Character</li>
+
+</ol>

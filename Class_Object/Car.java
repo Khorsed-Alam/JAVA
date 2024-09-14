@@ -5,4 +5,8 @@ public class Car {
         System.out.println("Honda");
     }
 
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+
 }

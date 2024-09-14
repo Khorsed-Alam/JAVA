@@ -330,3 +330,14 @@ public class Logical_Operator {
 }
 
 ````
+
+## Taking User input ## 
+<p>In order to usr the object of Scanner we need to import java.util.Scanner</p>
+<P>Scanner sc=new Scanner (System.in)</P>
+<ol>
+<li>sc.nextInt() Taking Integer</li>
+<li>sc.nextFloat() Taking Float</li>
+<li>sc.next() Taking Character</li>
+<li>sc.nextLine() Taking Character</li>
+
+</ol>
