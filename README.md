@@ -291,3 +291,31 @@ public class Logical_Operator {
 ````
 
 
+### Bitwise Operator ###
+|Operator| Description|
+|------|---|
+|~|Bitwise Complement|
+|<<| Left Shift|
+|>>| Right Shift|
+|>>>|unsigned Right Shift|
+|& | Bitwise AND|
+|^| Bitwise Exclusive Or|
+
+
+### Unary Operator ###
+<p>Unary operators are operators which are used to calculate the result on only one operand.</p>
+<ul>
+     <li>Increment</li>
+      <ol>
+       <li>Pre Increment </li> 
+      < li>Post Increment </li>
+     </ol>
+      <li>
+       <ol>
+       <li>Pre deccrement </li> 
+      < li>Post decrement </li>
+     </ol>
+     </li>
+
+ </ul>
+
