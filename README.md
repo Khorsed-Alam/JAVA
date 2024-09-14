@@ -227,3 +227,41 @@ public class Assignment_Operator {
 }
 
 ````
+
+
+### Relational Operator ###
+<p>A relational operator is used to check the relationship between two operands</p>
+<p>Relational Operator always return boolean value</p>
+
+|Operator|Description |
+|-----|----|
+|==|is Equal to|
+|!=| Not Equal to|
+|>|Greater than|
+|<|Less than|
+|>=| Greater Than Equal|
+|<=| Less than Equal|
+
+```java
+import com.sun.security.jgss.GSSUtil;
+
+public class Relational_Operato {
+    public static void main(String[] args) {
+        int FirstNum=10;
+        int SecondNum = 3;
+        System.out.println(FirstNum== SecondNum);
+
+        System.out.println(FirstNum != SecondNum);
+
+        System.out.println(FirstNum > SecondNum);
+
+        System.out.println(FirstNum< SecondNum);
+
+        System.out.println(FirstNum>=SecondNum);
+
+        System.out.println(FirstNum<=SecondNum);
+    }
+
+}
+
+```
