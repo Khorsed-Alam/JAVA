@@ -269,11 +269,11 @@ public class Relational_Operato {
 ### Logical Operator ###
 <p>Logical operators are symbols or words used to connect two or more expressions and return a true or false value.</p>
 
-|Operator| Meaning|
-|-----|---|
-|&& | Logical and|
-| || |Logical Or|
-| !| logical Not|
+| Operator | Meaning|
+|--|---|
+| && | Logical and|
+| (||) |Logical Or|
+| ! | logical Not|
 
 ````java
 public class Logical_Operator {
