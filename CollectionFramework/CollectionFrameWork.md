@@ -91,8 +91,7 @@ public class LearnList {
 |subList(int fromIndex, int toIndex|Return a view of the portion of the list between the specific fromIndex and toIndex|
 
 
-
-```java
+`````java
 package CollectionFramework;
 
 import java.util.ArrayList;
@@ -118,7 +117,10 @@ public class ListInterfacelist {
     }
 }
 
-```
+`````
+
+
+
 
 ````java
 package CollectionFramework;
