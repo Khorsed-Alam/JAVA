@@ -118,3 +118,27 @@ public class ArithmeticExceptionDemo {
 
 
 <h2>try-catch-finally Block</h2>
+<p>Finally keyword use only one time. But we can use catch  block multiple time </p>
+
+````java
+package Lecture_Exception;
+
+public class FinallyBlockException {
+    public static void main(String[] args) {
+        int []a= new int [4];
+        System.out.println("hello world");
+        try{
+            System.out.println(a[8]);
+        }catch (Exception E)
+        {
+            System.out.println("Exception Handle");
+        }finally {
+            System.out.println("I will run Always");
+        }
+        System.out.println("Bye world");
+    }
+}
+
+````
+
+<h2>Throw and Throws</h2>
