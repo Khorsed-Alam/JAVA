@@ -46,3 +46,4 @@
 
 <h2>Try and Catch Block</h2>
 <p>Try Catch block in java is used to handle Exception and Prevents the Abnormal termination of the program </p>
+
