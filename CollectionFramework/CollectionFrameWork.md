@@ -79,14 +79,14 @@ public class LearnList {
     <li>Vector</li>
 </ul>
 
-|List Interface method| uses                                                                                                       |
-|----|------------------------------------------------------------------------------------------------------------|
-|get(int index)| Retrieves the element at the specified index in the list                                                   |
-|set(int index,E element)| Replace the element at the specific index with the given element                                           |
+|List Interface method| uses    |
+|----|---------|
+|get(int index)| Retrieves the element at the specified index in the list |
+|set(int index,E element)| Replace the element at the specific index with the given element |
 |add(int index,E element)| Insert the specific element at the specified position in the list -->shifting the current elements to the right |
-|remove(int index)| Remove the element at the specified index from the list and shifts the remaining elements to the left      |
+|remove(int index)| Remove the element at the specified index from the list and shifts the remaining elements to the left |
 |indexof(Object 0)| Return the index of the first occurrence of the specified element in the list, or -1 if not into  present. |
-|lastIndexof(Object o)| Return the index of the last occurrencr of the specified element in the list or -1 if element not into the list |                                   
+|lastIndexof(Object o)| Return the index of the last occurrencr of the specified element in the list or -1 if element not into the list|
 |listItarator(int index)|Return List iterator over the elements in the list|
 |subList(int fromIndex, int toIndex|Return a view of the portion of the list between the specific fromIndex and toIndex|
 
@@ -162,3 +162,17 @@ public class IteratorList {
 }
 
 ````
+
+
+<h2>Java Array List</h2>
+
+<p>In java we need to declare the size of an array before we can use it . Once the size of an array is declared its hard to change<br>
+To Handle this issue we can use the array List class <br/>.ArrayList are also Known as dynamic array. </p>
+
+<h4>Internal Working of ArrayList</h4>
+
+<P>Initially the array has a certain capacity and as element are added it fills up. <br>
+When the capacity is reached the Arraylist Creates a new large array and copies the element from old array to new array</p>
+
+<h1>New Array Size</h1>
+new size= {(old size * 3)/2}+1;
