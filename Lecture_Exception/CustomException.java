@@ -8,14 +8,17 @@ public class CustomException {
       try{
           int age= sc.nextInt();
           if(age>100){
-              throw  new myException();
+              throw  new myException("My Error is This");
           }
       }catch (Exception E){
-          E.printStackTrace();
+          System.out.println(E);
       }
 
     }
 }
 class  myException extends Exception{
+    public myException (String message){
+        super(message);
+    }
 
 }
