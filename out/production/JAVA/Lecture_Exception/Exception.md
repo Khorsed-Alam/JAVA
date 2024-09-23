@@ -47,3 +47,51 @@
 <h2>Try and Catch Block</h2>
 <p>Try Catch block in java is used to handle Exception and Prevents the Abnormal termination of the program </p>
 
+````java
+try{
+    // code;
+        }catch(){
+    // code;
+        }
+````
+
+<h5>ArrayOutOfBoundsException</h5>
+```java
+package Lecture_Exception;
+
+public class ArrayIndexOutOfBoundsExceptionDemo {
+    public static void main(String[] args) {
+        int []arr= new int [10];
+        System.out.println("Hi");
+
+        try{
+            System.out.println(arr[19]);
+        }catch (ArrayIndexOutOfBoundsException E)
+        {
+            System.out.println("Trird to access the out of bound Exception ");
+        }
+
+        System.out.println("Hello");
+
+    }
+}
+
+```
+
+<h5>ArithmeticException</h5>
+```java
+package Lecture_Exception;
+
+public class ArithmeticExceptionDemo {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        try{
+            int result=5/0;
+        }catch (ArithmeticException E){
+             E.printStackTrace();
+        }
+        System.out.println("bye");
+    }
+}
+
+```
