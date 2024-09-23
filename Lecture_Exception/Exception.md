@@ -47,7 +47,7 @@
 <h2>Try and Catch Block</h2>
 <p>Try Catch block in java is used to handle Exception and Prevents the Abnormal termination of the program </p>
 
-````java
+````text
 try{
     // code;
         }catch(){
@@ -97,6 +97,8 @@ public class ArithmeticExceptionDemo {
 ```
 
 <h5>Mixed Exception</h5>
+
+
 ```java
 package Lecture_Exception;
 
@@ -113,3 +115,28 @@ public class ArithmeticExceptionDemo {
 }
 
 ```
+
+
+<h2>try-catch-finally Block</h2>
+<p>Finally keyword use only one time. But we can use catch  block multiple time </p>
+
+````java
+package Lecture_Exception;
+
+public class FinallyBlockException {
+    public static void main(String[] args) {
+        int []a= new int [4];
+        System.out.println("hello world");
+        try{
+            System.out.println(a[8]);
+        }catch (Exception E)
+        {
+            System.out.println("Exception Handle");
+        }finally {
+            System.out.println("I will run Always");
+        }
+        System.out.println("Bye world");
+    }
+}
+
+````
