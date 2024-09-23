@@ -142,3 +142,27 @@ public class FinallyBlockException {
 ````
 
 <h2>Throw and Throws</h2>
+<p>We use to Throws keyword in the method declaration to declare the type of Exception that might occur within it </p>
+
+````java
+package Lecture_Exception;
+
+public class Throw_Keyword {
+    public static void main(String[] args) {
+        int []a= new int [5];
+        System.out.println("hello World");
+
+        try{
+            getNumberFromArray(a);
+        }catch (Exception  E){
+            System.out.println("Catch the Exception: "+E.getMessage());
+        }
+
+    }
+    static int getNumberFromArray(int a[])throws ArithmeticException{
+        return a[8];
+    }
+}
+
+
+````
