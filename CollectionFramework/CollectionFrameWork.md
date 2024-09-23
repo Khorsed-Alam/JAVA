@@ -90,6 +90,8 @@ public class LearnList {
 |listItarator(int index)|Return List iterator over the elements in the list|
 |subList(int fromIndex, int toIndex|Return a view of the portion of the list between the specific fromIndex and toIndex|
 
+
+
 ```java
 package CollectionFramework;
 
